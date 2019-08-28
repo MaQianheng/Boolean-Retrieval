@@ -1,0 +1,51 @@
+/*
+* @Author: qianhengma
+* @Date:   2019-08-23 19:16:49
+* @Last Modified by:   qianhengma
+* @Last Modified time: 2019-08-23 20:31:29
+*/
+label{
+	margin-bottom: 0px;
+}
+input{
+	margin: 10px 0px;
+}
+.table>thead>tr>th{
+	text-align: center;
+	vertical-align: middle;
+}
+.table>tbody>tr>td{
+	text-align: center;
+	vertical-align: middle;
+}
+.table:nth-child(2) tr > th:nth-child(1){
+	width: 10%;
+}
+.table:nth-child(2) tr > th:nth-child(3){
+	width: 5%;
+}
+.container > .row:nth-child(1){
+	padding: 10px;
+}
+.container > .row:nth-child(1) > button{
+	float: right;
+	margin: 10px 0px;
+}
+#btn-submit{
+	background-color: #66FF99;
+	border: 1px solid #66FF99;
+	width: 100%;
+	transition: .25s all;
+}
+#btn-submit:hover{
+	background-color: #66FF00;
+}
+#div-alert{
+	opacity: 0;
+	display: none;
+	transition: .15s all;
+	margin:0px 15px;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: center;
+}
